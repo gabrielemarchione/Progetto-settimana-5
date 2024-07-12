@@ -176,6 +176,7 @@ hr {
 
 .secondSection div{
     position: relative;
+    overflow: hidden;
 }
 
 .propic{
