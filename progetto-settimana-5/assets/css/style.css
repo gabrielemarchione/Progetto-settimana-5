@@ -8,7 +8,8 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    background-color: #f4f4f4;
+    background-color: white;
+    z-index: 0;
 }
 
 header {
@@ -36,6 +37,14 @@ header {
   z-index: 1;
     
 }
+
+/**/
+
+
+
+
+
+
 
 .logo img {
     height: 25px;
@@ -144,12 +153,18 @@ main{
     position: relative;
 }
 
-.firstSection article img{
+
+ img:not(.propic img, .pippo ){
     border-radius: 50px;
 }
 
 
-.articleNumber p{
+.firstSection {
+	padding-top: 20px;
+}
+
+
+.articleNumber p , .articleNumber5 p , .articleNumber6 p{
     position: absolute;
     left: -10px;
     font-size: xx-large;
@@ -183,7 +198,7 @@ hr {
     position: absolute;
     right: -840px;
     top: -205px;
-  border-radius: 0%;
+  
 }
 
 .propic img {
@@ -215,6 +230,7 @@ hr {
     flex-wrap: wrap;
     gap: 10px;
     position: relative;
+   
 }
 
 .interest-title {
@@ -223,8 +239,8 @@ hr {
 
 .interest-list {
     display: flex;
-    gap: 8px 15px;
-    width: 100%;
+    gap: 12px 12px;
+    width: 42%;
     flex-wrap: wrap;
     padding-top: 20px;
     padding-bottom: 40px;
@@ -262,11 +278,11 @@ hr {
 
 
   
-  .interest-list .interest {
-    flex: 1 1 calc(33.33% - 20px); /* La larghezza di ogni pulsante */
-    box-sizing: border-box; /* Include padding e border nella dimensione totale */
-  }
+
   
   .tuttoIlResto{
 position: absolute;
+top: -725vh;
+  right: -23%;
   }
+
