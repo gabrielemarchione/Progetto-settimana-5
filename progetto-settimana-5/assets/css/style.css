@@ -1,0 +1,271 @@
+
+
+body {
+    
+    font-family: "Spectral", serif;
+    font-family: "Roboto", sans-serif;
+    
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+header {
+    width: 100%;
+    background-color: #ffc017; /* Colore di sfondo della navbar */
+    padding-bottom: 105px;
+    border-bottom: 1px solid black;
+    
+    position: relative;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    width: 100%;
+    box-sizing: border-box; /* Include padding nel calcolo della larghezza */
+    font-family: "Roboto", sans-serif;
+    border-bottom: 1px solid black;
+    padding: 20px 0;
+    text-align: center;
+    position: sticky;
+  top: 0;
+  z-index: 1;
+    
+}
+
+.logo img {
+    height: 25px;
+    padding-left: 40%;
+}
+
+.nav-buttons ul {
+	list-style: none;
+	display: flex;
+	margin: 0;
+	padding: 0;
+	padding-top: 6px;
+	align-items: center;
+    padding-right: 50px;
+}
+
+.nav-buttons li {
+    margin-left: 20px;
+}
+
+.nav-buttons a {
+    text-decoration: none;
+    color: black; /* Colore del testo dei link */
+    padding: 10px 15px;
+    border-radius: 5px; /* Aggiunge bordi arrotondati ai link */
+    transition: background-color 0.3s; /* Aggiunge una transizione all'effetto hover */
+}
+
+.nav-buttons a:hover {
+    background-color: #e0b800; /* Colore di sfondo dei link al passaggio del mouse */
+}
+
+.nav-buttons button {
+    background-color: white; /* Colore di sfondo del pulsante */
+    color: black; /* Colore del testo del pulsante */
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px; /* Aggiunge bordi arrotondati al pulsante */
+    transition: background-color 0.3s; /* Aggiunge una transizione all'effetto hover */
+    
+}
+
+.nav-buttons button:hover {
+    background-color: #e0b800; /* Colore di sfondo del pulsante al passaggio del mouse */
+}
+
+hr{
+    color: black;
+}
+
+.navContainer button {
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    border: 2px solid black;
+
+}
+
+.header-content{
+    padding-left: 5%;
+    
+}
+
+.header-content h1 {
+    font-size: 90px;
+  font-family: "Spectral", serif;
+  font-weight: normal;
+}
+
+.header-content h2{
+    font-weight: normal;
+    padding-bottom: 30px;
+}
+
+.header-content button {
+    
+        padding: 5px 50px 5px 50px;
+      
+        font-size: 20px;
+    
+}
+
+.tanteM {
+  width: 31%;
+  position: absolute;
+  right: 0%;
+  top: 12%;
+}
+
+
+
+main{
+    padding-left: 5%;
+}
+
+.trending  {
+    display: flex;
+  flex-wrap: wrap;
+
+}
+.trending article{
+    flex-basis: 30%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    position: relative;
+}
+
+.firstSection article img{
+    border-radius: 50px;
+}
+
+
+.articleNumber p{
+    position: absolute;
+    left: -10px;
+    font-size: xx-large;
+    color: gray;
+    opacity: 0.4;
+    left: -50px;
+    top: -10px;
+    font-weight: bold;
+  }
+
+  h4,h3 {
+    display: flex; /* Permette di usare flexbox */
+    align-items: center; /* Allinea verticalmente il contenuto */
+  }
+
+.firstSection img {
+    padding-right: 1%;
+}
+ 
+hr {
+    border: 1px solid lightgray;
+  margin-left: -100px;
+}
+
+.secondSection div{
+    position: relative;
+}
+
+.propic{
+    position: absolute;
+    right: -840px;
+    top: -205px;
+  border-radius: 0%;
+}
+
+.propic img {
+    width: 14%;
+    
+}
+.secondSection article{
+    padding: 20px;
+
+}
+
+
+
+.secondSection div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Spazio tra gli elementi interni */
+}
+
+
+
+
+
+.interest-section {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    flex-wrap: wrap;
+    gap: 10px;
+    position: relative;
+}
+
+.interest-title {
+    font-weight: bold;
+}
+
+.interest-list {
+    display: flex;
+    gap: 8px 15px;
+    width: 100%;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid gray;
+}
+
+.interest {
+    padding: 8px;
+    border: 1px solid rgb(180, 178, 178);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: rgb(152, 152, 152);
+}
+
+.secondary-nav {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.secondary-nav ul {
+   
+    width: 100%;
+    gap: 10px 18px;
+    padding-inline-start: 0px;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+.secondary-nav ul li {
+    list-style-type: none;
+    cursor: pointer;
+}
+
+
+  
+  .interest-list .interest {
+    flex: 1 1 calc(33.33% - 20px); /* La larghezza di ogni pulsante */
+    box-sizing: border-box; /* Include padding e border nella dimensione totale */
+  }
+  
+  .tuttoIlResto{
+position: absolute;
+  }
